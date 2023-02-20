@@ -1,0 +1,317 @@
+html{
+    font-family: "Montserrat", Helvetica, arial, sans-serif;
+    color: #070670 ;
+}
+
+/* Header  */
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url('../assets/capa2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.box-container{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    right: 100px;
+    bottom: 250px;
+    position: absolute;
+
+}
+
+.box-background{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #0d45bee0, 40%, #11caebe1 );
+    border-radius: 0 15px 0 15px;
+    position: relative;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
+}
+
+.box-banner-title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.box-banner-title > h1{
+    font-size: 32px;
+}
+
+.box-banner-title p{   
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.company-info-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 175px;
+}
+
+.company-info-background{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #0d45bed5, 70%, #11caebd5 );
+
+}
+
+.company-info-titlebox{
+    position: absolute;
+    padding-left: 10%;
+    width: 500px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.company-info-titlebox h2, .company-info-titlebox p {
+    color: #DDD;
+}
+
+.company-info-titlebox h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+/* Serviços */
+
+.services-container{
+    max-width: 1200px;
+    padding: 30px 10%;
+    padding-bottom: 0;
+}
+
+.service-box{
+    width: 100%;
+    position: relative;
+    clear: both;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.service-box:last{
+    margin-bottom: 0;
+}
+
+.service-title{
+    position: relative;
+    width: 20%;
+    height: 150px;
+    background-color: #DDD;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.service-title p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.service-description{  
+    width: 80%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.service-description h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+#gerenciamento-title{
+    color: #1d548f;
+}
+
+#dev-title{
+    color: #3391c0;
+}
+
+#design-title{
+    color: #2cb9e4;
+}
+
+#gerenciamento-box{
+    background: linear-gradient(to bottom,#2e70b6,80%,#3391c0);
+}
+
+#dev-box{
+    background: linear-gradient(to bottom,#3391c0,85%,#2cb9e4);
+}
+
+#design-box{
+    background-color: #2cb9e4;
+}
+
+/* Sobre a empresa */
+
+.footer-container{
+    background-image: url('../assets/rodape.jpg');
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.about-container{
+    max-width: 1200px;
+    padding: 30px 10%;
+    position: relative;
+    clear: both;
+}
+
+.about-card{
+    float: left;
+    width: 30%;
+    padding: 30px;
+    background-image: linear-gradient(to right bottom ,#1f8cd4d5, #04dcf8d5);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.middle-card{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-card i {
+    font-size: 50px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.about-card p {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.shadow {
+    /* border: 1px solid transparent; */
+    transition: 0.5s;
+}
+
+.shadow:hover{
+    transition: 0.5s;
+    /* border: 1px solid #070670; */
+    color: #1d548f;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
+    background-image: linear-gradient(to bottom right, #5bcaec, #b2e8f8);
+}
+.shadow:hover p{
+    transition: 0.5s;
+    color:#070670;
+}
+
+.shadow:hover i{
+    transition: 0.5s;
+    color: #070670;
+}
+
+/* Footer */
+
+footer{
+    clear: both;
+    max-width: 1200px;
+    height: 500px;
+    padding: 30px 10%;
+    position: relative;
+}
+
+.form-container{
+    width: 65%;
+    height: 375px;
+    position: relative;
+    display: block;
+}
+
+.form-background{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #18c4f8a4, #79daf88a);
+    /* opacity: 0.5; */
+}
+
+.form-container form{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 300px;
+}
+
+.form-container input, .form-container textarea{
+    width: 400px;
+    display: block;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #070670;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.form-container textarea{
+    height: 120px;
+}
+
+.form-container input::placeholder, .form-container textarea::placeholder{
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #070670;
+}
+
+.form-container .submit{
+    background-color: #070670;
+    color: #FFF;
+    border: 1px solid transparent;
+    width: 100px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.form-container .submit:hover{
+    background-color: #FFF;
+    color: #070670;
+    border: 1px solid #070670;
+}
+
+.copyright{
+    color: #222;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin: auto;
+}
